@@ -1,25 +1,25 @@
-class Book
-  def initialize (title)
-    @title = title
+class Shoe 
+  def initialize (brand)
+    @brand = brand
   end
   
-  #def title
-   # @title
+  def brand
+    @brand
+  end
+  
+  #def author= (author)
+    #@author = author
+  #end  
+  
+  #def author
+    #@author
   #end
   
-  def author= (author)
-    @author = author
-  end  
+  #def page_count= (num)
+    #@page_count= (num)
+  #end
   
-  def author
-    @author
-  end
-  
-  def page_count= (num)
-    @page_count= (num)
-  end
-  
-  def page_count
-    @page_count
-  end
+  #def page_count
+    #@page_count
+  #end
   
