@@ -7,6 +7,8 @@ class Shoe
     @brand
   end
 end
+
+attr_accessor :color, :size, :material, :condition
   
   #def author= (author)
     #@author = author
